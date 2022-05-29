@@ -9,12 +9,11 @@ P {
 
     font-family: 'Titillium Web', sans-serif;
 }
+
 ul {
     font-weight:bold;
 }
-li {
-    margin: 5px;
-}
+
 .aaa {
     height: 300px;
 }
