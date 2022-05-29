@@ -19,6 +19,8 @@ ul {
 }
 
 body {
+    display: inline-block;
     margin-left: 350px;
     margin-right: 350px;
 }
+
