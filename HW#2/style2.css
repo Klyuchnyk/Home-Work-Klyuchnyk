@@ -1,0 +1,25 @@
+P {
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Bebas Neue', cursive;
+
+    font-family: 'Dancing Script', cursive;
+
+    font-family: 'Spline Sans Mono', monospace;
+
+    font-family: 'Titillium Web', sans-serif;
+}
+ul {
+    font-weight:bold;
+}
+li {
+    margin: 5px;
+}
+.aaa {
+    height: 300px;
+}
+
+body {
+    margin-left: 350px;
+    margin-right: 350px;
+}
