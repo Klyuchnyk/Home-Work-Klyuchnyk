@@ -1,6 +1,6 @@
 body {
   position: relative;
-  width: 1440px;
+  width: 2031px;
   height: 1480px;
   background: #FFFFFF;
   font-family: 'Anton', sans-serif;
@@ -13,7 +13,7 @@ body {
 
 .conteiner1 {
   position: absolute;
-  width: 1440px;
+  width: 2031px;
   height: 500px;
   left: 0px;
   top: 0px;
@@ -96,7 +96,7 @@ top: 94px;
 }
 
 .conteiner2 {
-  width: 1440px;
+  width: 2031px;
   height: 500px;
   left: 0px;
   top: 500px;
@@ -210,7 +210,7 @@ color: #FFFFFF;
 
 
 .conteiner3 {
-width: 1440px;
+width: 2031px;
 height: 435px;
 left: 0px;
 top: 1045px;
