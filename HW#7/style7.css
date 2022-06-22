@@ -1,0 +1,68 @@
+.conteiner {
+    display: flex;
+    flex-flow: wrap;
+    width: 280px;
+    margin: auto; 
+    margin-bottom: 100px;
+}
+
+.block {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    margin: 10px;
+}
+
+.block:nth-child(4n-1) {
+    background-color: red;
+}
+
+.block:nth-of-type(21),
+.block:nth-of-type(22),
+.block:nth-of-type(23){
+    background-color: blue;
+}
+
+.block:nth-of-type(24) {
+    background-color: red;
+}
+
+.btn button {
+    border: none;
+    color: white;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    background-color: #44D3A8;
+    width: 494px;
+    height: 92px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn::before,
+.btn::after{
+    content: "";
+    position: absolute;
+    width: 250px;
+    border-top: 2px solid #C4C4C4;;
+    border-bottom: 2px solid #C4C4C4;;
+    height: 8px;
+    margin: 35px 0;
+}
+.btn::before{
+    left: 450px;
+}
+.btn::after{
+    right: 450px;
+}
+
+
+
