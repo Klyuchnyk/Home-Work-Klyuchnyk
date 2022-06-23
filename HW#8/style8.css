@@ -19,13 +19,10 @@
 
 .block:nth-of-type(21),
 .block:nth-of-type(22),
-.block:nth-of-type(23){
+.block:nth-of-type(24){
     background-color: blue;
 }
 
-.block:nth-of-type(24) {
-    background-color: red;
-}
 
 .btn button {
     border: none;
@@ -57,11 +54,12 @@
     height: 8px;
     margin: 35px 0;
 }
+
 .btn::before{
-    left: 450px;
+    left: 250px;
 }
 .btn::after{
-    right: 450px;
+    right: 250px;
 }
 
 
