@@ -204,7 +204,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 270px;
+    height: 320px;
     width: 100%;
     margin-top: -4.6em;
 }
@@ -239,7 +239,7 @@ body {
 
 .b322 {
     margin-left: 20px;
-    margin-right: 50px;
+    margin-right: 75px;
 }
 
 .b323 {
@@ -261,9 +261,20 @@ body {
     line-height: 160%;
     color: #4B5D68;
     padding-bottom: 30px;
-    width: 500px;
+    width: 220px;
 }
 
+.p1p p {
+    width: 584px;
+    height: 58px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    color: #4B5D68;
+}
 
 .section3 h2 {
     font-family: 'Helvetica';
