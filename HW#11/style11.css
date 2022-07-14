@@ -1,0 +1,129 @@
+#searchbar {
+    height: 29px;
+    width: 216px;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    position: relative;
+    font-family: 'Helvetica Neue';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+}
+
+input#searchbar {
+    transform: translateY(+30%);
+}
+
+.lens-svg {
+     height: 9px;
+    width: 9px;
+    position: absolute;
+    left: 33%;
+    top: 64%;
+    z-index: 3;
+}
+
+.icons {
+    width: 180px;
+    height: 29px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.messages {
+    position: relative;
+    cursor: pointer;
+}
+
+.redcircle {
+    position: absolute;
+    left: 59%;
+    top: -8%;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.five  {
+    position: absolute;
+    left: 85%;
+    top: 8%;
+    z-index: 3;
+    cursor: pointer;
+}
+
+
+.line {
+    height: 1px;
+    width: 100%;
+    color: #48454584;
+    margin: 0;
+}
+
+.h2 {
+    margin-right: 20px;
+}
+
+
+.check-list ul {
+    padding: 0px;
+}
+
+.check-list li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 35px;
+    margin-top: 24px;
+}
+
+.btn {
+    background: #4094EF;
+    border-radius: 6px;
+}
+
+.stories a {
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 40px;
+    color: #262626;
+}
+
+.col {
+    margin-left: 110px;
+    margin-top: 40px;
+}
+
+.row {
+    margin: 20px 0;
+}
+
+.cube-svg {
+    transform: translateY(-11%);
+}
+
+.person-svg {
+    transform: translateY(-11%);
+}
+
+.posts-text-center {
+    margin-right: 7%;
+}
+
+.centerline {
+    position: absolute;
+    top: -40px;
+    left: 15px;
+}
+
+.cards {
+    flex-wrap: wrap;
+}
+
+.cards-mini {
+    width: auto;
+}
